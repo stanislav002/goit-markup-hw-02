@@ -2,17 +2,19 @@
     --header-color: #ffffff;
     --main-btn-color: #ffffff;
     --accent-color: #2196F3;
+    --professions-color: #757575;
+    --main-names-color: #212121;
 }
 
 body {
     font-family: 'Roboto', Verdana, sans-serif sans-serif;
 }
+
+
+/* ----------------header---------------------- */
+
+
 .header {
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
     background: var(--header-color);
 }
 
@@ -21,37 +23,67 @@ body {
 }
 
 .header-link {
-
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.83;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.header-studio {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.33;
+    line-height: 0.87;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--main-names-color);
 }
-.header-link:hover,
-.header-link:focus,
-.header-contacts:hover,
-.header-contacts:focus,
-.header-tel:hover,
-.header-tel:focus {
-    color: var(--accent-color);
-
+.header-portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.87;
+    letter-spacing: 0.02em;
+    color: var(--main-names-color);
 }
-
-
 .header-contacts {
     font-weight: 500;
     font-size: 14px;
+    line-height: 0.87;
+    letter-spacing: 0.02em;
+    color: var(--main-names-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-studio:hover,
+.header-studio:focus,
+.header-portfolio:hover,
+.header-portfolio:focus,
+.header-contacts:hover,
+.header-contacts:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--accent-color);
+}
+
+.linked {
+
+}
+.header-mail {
+    font-weight: 500;
+    font-size: 14px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .header-tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--professions-color);
 }
 .call-button {
     font-family: inherit;
@@ -64,18 +96,13 @@ body {
     letter-spacing: 0.06em;
     color: var(--main-btn-color);
 }
-
-
-
-
-
 .name-family {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.33;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-names-color);
 }
 
 .about-name {
@@ -85,6 +112,127 @@ body {
     line-height: 1.33px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--professions-color);
 }
 
+/* ----------------main------------------ */
+
+.namesite {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--header-color);
+}
+.call-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-btn-color);
+}
+
+.hero2 {
+
+}
+.heater-title2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.07;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-names-color);
+}
+.title3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--professions-color);
+}
+
+
+/* ----------------hero3----------------- */
+
+
+
+.hero3 {
+}
+.heated-groop3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.85;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-names-color);
+}
+
+/* ---------------hero4----------------- */
+
+.hero4 {
+
+}
+
+.heated-groop4 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.85;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-names-color);
+}
+
+.pic-photo {
+    width: 270px;
+    height: 260px;
+}
+ /* --------------footer------------------- */
+.copyright:hover,
+.copyright:focus,
+.footer-adress:hover,
+.footer-adress:focus,
+.footer-mail:hover,
+.footer-mail:focus
+.footer-tel:hover,
+.footer-tel:focus {
+    text-decoration: underline;
+}
+
+.footer {
+}
+.copyright {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.83;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.footer-adress {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+
+.footer-mail {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
