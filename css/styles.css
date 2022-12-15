@@ -10,18 +10,28 @@ body {
     font-family: 'Roboto', Verdana, sans-serif sans-serif;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /* ----------------header---------------------- */
-
 
 .header {
     background: var(--header-color);
 }
-
 .link {
     text-decoration: none;
 }
-
 .header-link {
     font-family: 'Raleway';
     font-style: normal;
@@ -31,26 +41,18 @@ body {
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
-.header-studio {
+.head-r {
     font-weight: 500;
     font-size: 14px;
     line-height: 0.87;
     letter-spacing: 0.02em;
     color: var(--main-names-color);
+}
+.header-studio {
 }
 .header-portfolio {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 0.87;
-    letter-spacing: 0.02em;
-    color: var(--main-names-color);
 }
 .header-contacts {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 0.87;
-    letter-spacing: 0.02em;
-    color: var(--main-names-color);
 }
 
 .header-link:hover,
@@ -67,7 +69,6 @@ body {
 .header-tel:focus {
     color: var(--accent-color);
 }
-
 .linked {
 
 }
@@ -104,7 +105,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-names-color);
 }
-
 .about-name {
 
     font-weight: 400;
@@ -138,9 +138,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--main-btn-color);
 }
-
 .hero2 {
-
 }
 .heater-title2 {
     font-weight: 700;
@@ -158,10 +156,7 @@ body {
     color: var(--professions-color);
 }
 
-
 /* ----------------hero3----------------- */
-
-
 
 .hero3 {
 }
@@ -177,9 +172,7 @@ body {
 /* ---------------hero4----------------- */
 
 .hero4 {
-
 }
-
 .heated-groop4 {
     font-weight: 700;
     font-size: 36px;
@@ -188,7 +181,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-names-color);
 }
-
 .pic-photo {
     width: 270px;
     height: 260px;
@@ -216,23 +208,55 @@ body {
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
-
-.footer-adress {
+.foot-r {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+.footer-adress {
     color: var(--header-color);
 }
-
 .footer-mail {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* ----------------page2---------------- */
+
+.programs-button:hover,
+.programs-button:focus {
+    color: var(--header-color);
+    background-color: #2196F3;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.programs-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border-style: hidden;
+}
+.picDifProgram {
+    width: 370px;
+}
+.name-difprograms {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.5;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.about-name-difprograms {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
