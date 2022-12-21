@@ -18,16 +18,38 @@ ul {
 }
 .list {
     list-style: none;
+    margin: 0 auto;
+    padding: 0;
 }
 .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 215px;
 }
+
 img {
     display: block;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+button {
+    cursor: pointer;
+}
+a {
+    color: currentColor;
+}
+address {
+    font-size: normal;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -47,7 +69,11 @@ img {
 .header {
     background: var(--header-color);
 }
-
+.item {
+    margin: 32px 0;
+}
+.headerlist {
+}
 .header-link {
     font-family: 'Raleway';
     font-style: normal;
@@ -56,6 +82,8 @@ img {
     line-height: 0.83;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .head-r {
     font-family: var(--main-font);
@@ -87,7 +115,7 @@ img {
     color: var(--accent-color);
 }
 .linked {
-
+    margin: 32px 0;
 }
 .header-mail {
     font-weight: 500;
@@ -121,6 +149,9 @@ img {
     letter-spacing: 0.03em;
     color: #000000;
 }
+.hero-container {
+    
+}
 .call-button {
     font-family: inherit;
     font-style: normal;
@@ -137,7 +168,7 @@ img {
     margin: 0 auto;
     margin-top: 30px;
 }
-}
+
 .name-family {
     font-weight: 500;
     font-size: 16px;
