@@ -150,7 +150,10 @@ address {
     color: #000000;
 }
 .hero-container {
-    
+    background-color: var(--hero-background);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 210px;
 }
 .call-button {
     font-family: inherit;
@@ -167,6 +170,7 @@ address {
     display: block;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 200px;
 }
 
 .name-family {
@@ -176,6 +180,8 @@ address {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-names-color);
+    padding top: 30px;
+    padding-bottom: 10px;
 }
 .about-name {
 
@@ -199,15 +205,15 @@ address {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--header-color);
+
 }
 
 .call-button:hover,
 .call-button:focus {
     transform: scale(1.01);
 }
-.hero {
-    background-color: var(--hero-background);
-    text-align: center;
+.hero2-title2 {
+    margin: 94px 215px;
 }
 .heater-title2 {
     font-weight: 700;
@@ -216,6 +222,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-names-color);
+    margin-bottom: 10px;
 }
 .title3 {
     font-weight: 400;
@@ -223,6 +230,7 @@ address {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--professions-color);
+    min-width: 270px;
 }
 
 /* ----------------hero3----------------- */
@@ -236,6 +244,19 @@ address {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-names-color);
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+.conthero3 {
+    margin: 94px 215px;
+    padding: 0;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.imagesclass {
+    margin-bottom: 30px;
 }
 
 /* ---------------hero4----------------- */
@@ -250,6 +271,10 @@ address {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-names-color);
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+.containerphoto {
 }
 .pic-photo {
     width: 270px;
@@ -272,6 +297,15 @@ address {
 .footer {
     background-color: #2F303A;
 }
+
+.footerconteiner {
+    margin: 60px 215px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-icon {
+    padding-bottom: 20px;
+}
 .copyright {
     font-family: 'Raleway';
     font-style: normal;
@@ -285,6 +319,7 @@ address {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    padding-bottom: 9px;
 }
 .footer-adress {
     color: var(--header-color);
