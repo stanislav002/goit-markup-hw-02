@@ -224,6 +224,10 @@ address {
     letter-spacing: 0.03em;
     color: var(--professions-color);
 }
+.header-icon {
+    align-items: center;
+    justify-content: center;
+}
 
 /* ----------------main------------------ */
 
@@ -373,21 +377,23 @@ address {
     height: 100%;
     border-radius: 50%;
     background-color: #ffffff;
-}
-
-.master-soc-icon {
     fill: #AFB1B8;
 }
+
+/* .master-soc-icon {
+    fill: #AFB1B8;
+} */
 
 .master-soc-link:hover,
 .master-soc-link:focus {
     background-color: #2196F3;
+    fill: #ffffff;
 }
 
-.master-soc-link:hover .master-soc-icon,
+/* .master-soc-link:hover .master-soc-icon,
 .master-soc-link:focus .master-soc-icon {
     fill: #fff;
-}
+} */
 
  /* --------------footer------------------- */
 .copyright:hover,
