@@ -273,6 +273,7 @@ address {
 /* ----------------hero3----------------- */
 
 .hero3 {
+
 }
 .hero3-img {
     display: flex;
@@ -299,13 +300,13 @@ address {
     padding-right: 15px;
 }
 .imagesclass {
-    margin-bottom: 30px;
 }
 
 /* ---------------hero4----------------- */
 
 .hero4 {
-    background-color: ;
+    background-color: #F5F4FA;
+    padding-top: 94px;
 }
 .heated-groop4 {
     font-weight: 700;
@@ -314,7 +315,7 @@ address {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-names-color);
-    margin-top: 94px;
+
     margin-bottom: 50px;
 }
 .hero4list {
@@ -326,6 +327,7 @@ address {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 94px;
+    background-color: #fff;
 }
 .pic-photo {
     width: 270px;
@@ -347,6 +349,45 @@ address {
     margin-right: 30px;
 } */
 
+.master-soc-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.master-soc-item {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+
+.master-soc-item:first-child {
+    margin-left: 0;
+}
+
+.master-soc-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.master-soc-icon {
+    fill: #AFB1B8;
+}
+
+.master-soc-link:hover,
+.master-soc-link:focus {
+    background-color: #2196F3;
+}
+
+.master-soc-link:hover .master-soc-icon,
+.master-soc-link:focus .master-soc-icon {
+    fill: #fff;
+}
 
  /* --------------footer------------------- */
 .copyright:hover,
@@ -496,14 +537,13 @@ address {
 .overlay {
     min-width: 1600px;
     height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     outline: 1px solid black;
     background-color: black;
     background-image: linear-gradient(
         to right,
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
     ),
         url(../imgback/background-main.jpg);
     background-repeat: no-repeat;
