@@ -228,6 +228,34 @@ address {
 
 
 /* ----------------main------------------ */
+.icons-hero2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    max-width: 270px;
+    height: 120px;
+}
+
+.icon-section-hero2 {
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+}
+
+.icon-section-hero2:first-child {
+    margin-left: 0;
+}
+.icon-section-hero2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #212121;
+    stroke-width: 0;
+    stroke: currentColor;
+}
 
 .namesite {
     font-family: 'Roboto';
@@ -581,35 +609,6 @@ address {
 
 /* -------------------icons----------------------------- */
 
-.icons-hero2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    max-width: 270px;
-    height: 120px;
-}
-
-.icon-section-hero2 {
-    width: 70px;
-    height: 70px;
-    margin-left: 100px;
-}
-
-.icon-section-hero2:first-child {
-    margin-left: 0;
-}
-.icon-section-hero2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    fill: #212121;
-    stroke-width: 0;
-    stroke: currentColor;
-}
-
 .master-soc-list {
     display: flex;
     justify-content: center;
@@ -644,8 +643,12 @@ address {
 .master-soc-link:hover,
 .master-soc-link:focus {
     background-color: #2196F3;
+}
+.master-soc-link:hover .master-soc-icon,
+.master-soc-link:focus .master-soc-icon {
     fill: #ffffff;
 }
+
 
 /* .master-soc-link:hover .master-soc-icon,
 .master-soc-link:focus .master-soc-icon {
@@ -694,10 +697,127 @@ address {
     fill: #AFB1B8;
 }
 
-.master-soc-icon:hover,
-.master-soc-icon:focus,
 .container-company-icons-link:hover,
 .container-company-icons-link:focus {
+    border-color: #2196F3;
+}
+
+.container-company-icons-link:hover .master-soc-icon,
+.container-company-icons-link:focus .master-soc-icon {
     fill: #2196F3;
     border-color: #2196F3;
+}
+/* -------------------headericons---------------- */
+
+.header-connect .list {
+  display: flex;
+  align-items: center;
+  margin-left: 305px;
+}
+/* .header-connect .linked:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header-connect .link {
+  display: flex;
+  align-items: center;
+  color: var(--secondary-txt);
+}
+
+.header-connect .header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.header-connect .link:hover,
+.header-connect .link:focus {
+  color: var(--accent-txt);
+} */
+
+
+/* -------------------footericons--------------------------- */
+
+/* .master-soc-list2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.master-soc-item2 {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+
+.master-soc-item2:first-child {
+    margin-left: 0;
+}
+
+.master-soc-link2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #ffffff;
+}
+
+/* .master-soc-icon {
+    fill: #AFB1B8;
+} */
+
+/* .master-soc-link2:hover,
+.master-soc-link2:focus {
+    background-color: #2196F3;
+}
+.master-soc-link2:hover .master-soc-icon2,
+.master-soc-link2:focus .master-soc-icon2 {
+    fill: #ffffff;
+} */
+/* 
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    gap: 30px;
+} */ */
+
+
+
+
+
+
+
+/* Футер */
+
+
+.fotter-icons {
+  margin-left: 70px;
+}
+
+.master-soc-list2 {
+  display: flex;
+  justify-content: center;
+}
+
+.master-soc-item2:not(:last-child) {
+  margin-right: 10px;
+}
+
+.master-soc-link2 {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.master-soc-icon2 {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
 }
